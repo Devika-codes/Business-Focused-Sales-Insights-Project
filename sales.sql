@@ -24,4 +24,5 @@ WHERE zone = '';
 -- 2.Deleting sales amount = 0 or -1.
 DELETE FROM transactions where sales_amount <=0;
 
-DROP TABLE transactions;
+
+
