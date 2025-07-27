@@ -1,17 +1,32 @@
-##Business-Focused Sales Insights Project
+# 📊 Business-Focused Sales Insights Project
 
-*Task*:
-The goal of this project is to analyze sales data from different sources—customers, products, markets, transactions, and dates—to gain meaningful business insights.
+This project focuses on cleaning and analyzing sales data using SQL to extract beneficial business insights. It involves data from customers, products, markets, transactions, and dates.
 
-*Approach*:
-* Loaded and cleaned data using SQL (removed invalid records, converted currencies, fixed date formats).
-* Created a relational database with foreign key links between tables.
-* Added calculated fields like **estimated cost** and **profit**.
-* Wrote SQL queries to analyze sales performance by customer, market, product, and month.
+---
 
-*End Result*:
-* Identified top-performing customers, products, and markets.
-* Found the best revenue months and total profit.
-* Created a ready-to-use database and Power BI dashboard for easy decision-making.
+## 🔧 Task:
+To build a structured, clean, and analysis-ready sales database that helps identify top-performing customers, products, markets, months and other needed parameters for business analytics.
 
+---
 
+## 🧠 Approach:
+- Loaded raw CSV data into MySQL.
+- Cleaned data by:
+  - Removing null zones and invalid records.
+  - Standardizing currencies (USD → INR).
+  - Converting text dates to proper DATE format.
+- Structured data with relational tables and foreign key constraints.
+- Added calculated columns for **estimated cost** and **profit**.
+- Wrote SQL queries to uncover key business insights.
+- Visualized results in Power BI.
+
+---
+
+## ✅ End Result
+- Insights on:
+  - Top-performing customers, products, and markets.
+  - Best-performing markets and months
+  - Estimated profit and total revenue
+- Power BI dashboard for quick decision-making.
+
+---
